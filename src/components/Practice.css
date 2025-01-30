@@ -1,0 +1,17 @@
+/* src/components/Practice.css */
+.practice {
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .practice h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .loading {
+    font-size: 1.2rem;
+    color: #666;
+  }

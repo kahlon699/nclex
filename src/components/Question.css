@@ -1,0 +1,78 @@
+/* src/components/Question.css */
+.question {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .option {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .option label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.rationale {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+}
+
+.rationale p {
+  margin: 0;
+  font-size: 1rem;
+  color: #00796b;
+}
+.next-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #218838;
+  }
