@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nclex/static/css/main.67353261.css",
-    "main.js": "/nclex/static/js/main.d554cdc9.js",
-    "static/js/488.00c0cffb.chunk.js": "/nclex/static/js/488.00c0cffb.chunk.js",
-    "index.html": "/nclex/index.html",
-    "main.67353261.css.map": "/nclex/static/css/main.67353261.css.map",
-    "main.d554cdc9.js.map": "/nclex/static/js/main.d554cdc9.js.map",
-    "488.00c0cffb.chunk.js.map": "/nclex/static/js/488.00c0cffb.chunk.js.map"
+    "main.css": "/nclex/home/static/css/main.67353261.css",
+    "main.js": "/nclex/home/static/js/main.8054d848.js",
+    "static/js/488.00c0cffb.chunk.js": "/nclex/home/static/js/488.00c0cffb.chunk.js",
+    "index.html": "/nclex/home/index.html",
+    "main.67353261.css.map": "/nclex/home/static/css/main.67353261.css.map",
+    "main.8054d848.js.map": "/nclex/home/static/js/main.8054d848.js.map",
+    "488.00c0cffb.chunk.js.map": "/nclex/home/static/js/488.00c0cffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67353261.css",
-    "static/js/main.d554cdc9.js"
+    "static/js/main.8054d848.js"
   ]
 }
