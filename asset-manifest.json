@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nclex/static/css/main.3a1374c6.css",
-    "main.js": "/nclex/static/js/main.49670307.js",
+    "main.css": "/nclex/static/css/main.bad7c11b.css",
+    "main.js": "/nclex/static/js/main.79536f94.js",
     "static/js/488.00c0cffb.chunk.js": "/nclex/static/js/488.00c0cffb.chunk.js",
     "index.html": "/nclex/index.html",
-    "main.3a1374c6.css.map": "/nclex/static/css/main.3a1374c6.css.map",
-    "main.49670307.js.map": "/nclex/static/js/main.49670307.js.map",
+    "main.bad7c11b.css.map": "/nclex/static/css/main.bad7c11b.css.map",
+    "main.79536f94.js.map": "/nclex/static/js/main.79536f94.js.map",
     "488.00c0cffb.chunk.js.map": "/nclex/static/js/488.00c0cffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a1374c6.css",
-    "static/js/main.49670307.js"
+    "static/css/main.bad7c11b.css",
+    "static/js/main.79536f94.js"
   ]
 }
