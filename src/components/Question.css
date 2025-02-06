@@ -21,6 +21,18 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  /* Correct answer style */
+/* Correct answer style */
+.option.correct {
+    background-color: hsl(120, 100%, 92%); /* Light green background */
+    border-color: #4caf50; /* Green border */
+  }
+  
+  /* Incorrect answer style */
+  .option.incorrect {
+    background-color: hsl(0, 100%, 92%); /* Light red background */
+    border-color: #f44336; /* Red border */
+  }
   
   .option label {
     display: flex;

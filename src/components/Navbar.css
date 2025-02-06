@@ -1,13 +1,14 @@
+/* Existing styles */
 .navbar {
-    display: flex; 
+    display: flex;
     align-items: center;
-    background-color: #007bff;
+    background: linear-gradient(135deg, #007bff, #00bfff);
     padding: 2px 5px;
     color: white;
   }
   
   .logo-image {
-    max-width: 52px; /* Set the maximum width of the logo */
+    max-width: 90px; /* Set the maximum width of the logo */
     height: auto; /* Maintain aspect ratio */
   }
   
@@ -23,6 +24,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center;
+    margin-left: auto; /* Push the login icon to the right */
   }
   
   .navbar-links li {
@@ -52,17 +55,71 @@
     margin: 4px 0;
   }
   
-  @media (max-width: 768px) {
+  /* Login icon styles */
+  .login-icon {
+    margin-left: 20px; /* Add some spacing */
+  }
+  
+  .user-icon {
+    color: white; /* Icon color */
+    font-size: 1.2rem; /* Icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .user-icon:hover {
+    color: #ff5722; /* Change color on hover */
+  }
+  
+  /* Logout button styles */
+  .logout-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .logout-button:hover {
+    color: #ff5722; /* Change color on hover */
+  }
+  
+  /* Tooltip styles */
+  .tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the icon */
+    left: 50%;
+    margin-left: -25px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .login-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 480px) {
     .navbar {
       position: relative; /* Ensure the navbar is a positioning context for absolute children */
       justify-content: space-between;
     }
-
+  
     .navbar-links {
       display: none;
       flex-direction: column;
-      width: 100%;
-      background-color: #007bff;
+      width: 50%;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #007bff, #00bfff);
       position: absolute;
       top: 100%; /* Position the dropdown below the navbar */
       left: 0;
@@ -70,20 +127,24 @@
       z-index: 1000; /* Ensure it appears above other content */
     }
   
-    .navbar-links a:hover {
-        text-decoration: underline;
-      }
-      
     .navbar-links.active {
       display: flex;
-    }
-  
+    }   
     .navbar-links li {
       margin: 10px 0;
       text-align: center;
-    }
-  
+    }      
+    .navbar-links a:hover {
+        text-decoration: underline;
+      }
     .navbar-toggle {
       display: flex;
+      order: -1; /* Move the hamburger menu to the left */
+      margin-right: auto; /* Push the hamburger menu to the left */
+    }
+  
+    .login-icon {
+      margin-left: auto; /* Push the login icon to the right */
+      margin-right: 20px; /* Add some spacing */
     }
   }
