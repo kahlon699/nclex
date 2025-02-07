@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import About from './components/About';
+import Contact from './components/Contact';
 import Practice from "./components/Practice";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
@@ -42,6 +44,9 @@ const App = () => {
           {/* Routes */}
           <Routes>
             <Route path="/" element={<Home />} />
+            // In your router configuration
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             {/* Remove the /login route since Login is now a modal */}
             <Route
               path="/practice"
@@ -58,7 +63,7 @@ const App = () => {
                   <Dashboard />
                 </ProtectedRoute>
               }
-            />
+            />            
           </Routes>
 
           {/* Footer */}

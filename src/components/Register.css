@@ -102,3 +102,25 @@
 .register-button-submit:hover {
   background: #0056b3;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 20px;
+    width: 80%; /* Adjusted for better mobile responsiveness */
+  }
+
+  .login-form {
+    gap: 15px;
+  }
+
+  .form-group input {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .login-button-submit {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
