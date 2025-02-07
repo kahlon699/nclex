@@ -3,7 +3,7 @@ import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 
 const PayPalPayment = () => {
   const paypalOptions = {
-    'client-id': 'YOUR_PAYPAL_CLIENT_ID', // Replace with your PayPal Client ID
+    'client-id': 'AT4j0_nMzdBlhYsYXTAtT2gsbW5W-0jDoX9vgK3anAwzCvECagyffLz1B1K7D8SHXiapVi7TUa3SAULx', // Replace with your PayPal Client ID
     currency: 'USD', // Set the currency
   };
 
@@ -19,11 +19,22 @@ const PayPalPayment = () => {
     });
   };
 
-  const onApprove = (data, actions) => {
-    return actions.order.capture().then((details) => {
-      alert('Payment completed by ' + details.payer.name.given_name);
-      console.log('Payment details:', details);
-    });
+  const onApprove = async (data, actions) => {
+    try {
+      const response = await fetch('https://localhost:5001/api/paypal/capture-order', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ orderId: data.orderID }),
+      });
+  
+      const result = await response.json();
+      alert(result.Message);
+    } catch (error) {
+      console.error('Error capturing order:', error);
+      alert('Payment capture failed. Please try again.');
+    }
   };
 
   const onError = (error) => {
