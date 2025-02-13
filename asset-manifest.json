@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nclex/static/css/main.f7c512e2.css",
+    "main.css": "/nclex/static/css/main.d2fe3993.css",
     "main.js": "/nclex/static/js/main.f12409df.js",
     "static/css/721.1b126ddc.chunk.css": "/nclex/static/css/721.1b126ddc.chunk.css",
     "static/js/721.5b4036c0.chunk.js": "/nclex/static/js/721.5b4036c0.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/488.00c0cffb.chunk.js": "/nclex/static/js/488.00c0cffb.chunk.js",
     "static/js/58.412fe8a3.chunk.js": "/nclex/static/js/58.412fe8a3.chunk.js",
     "index.html": "/nclex/index.html",
-    "main.f7c512e2.css.map": "/nclex/static/css/main.f7c512e2.css.map",
+    "main.d2fe3993.css.map": "/nclex/static/css/main.d2fe3993.css.map",
     "main.f12409df.js.map": "/nclex/static/js/main.f12409df.js.map",
     "721.1b126ddc.chunk.css.map": "/nclex/static/css/721.1b126ddc.chunk.css.map",
     "721.5b4036c0.chunk.js.map": "/nclex/static/js/721.5b4036c0.chunk.js.map",
@@ -25,7 +25,7 @@
     "58.412fe8a3.chunk.js.map": "/nclex/static/js/58.412fe8a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c512e2.css",
+    "static/css/main.d2fe3993.css",
     "static/js/main.f12409df.js"
   ]
 }
